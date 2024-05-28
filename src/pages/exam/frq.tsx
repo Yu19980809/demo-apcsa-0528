@@ -1,8 +1,9 @@
 import FrqTemplate from "@/components/frq/question"
+import { Mode } from "@/lib/types"
 
 const ExamFrq = () => {
   return (
-    <FrqTemplate />
+    <FrqTemplate mode={Mode.EXAM} />
   )
 }
 
