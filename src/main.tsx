@@ -40,7 +40,7 @@ const router = createBrowserRouter([
     element: <Home />
   },
   {
-    path: 'auth/login',
+    path: '/auth/login',
     element: (
       <GoogleOAuthProvider clientId={googleClientId}>
         <Login />
@@ -48,79 +48,79 @@ const router = createBrowserRouter([
     )
   },
   {
-    path: 'auth/register',
+    path: '/auth/register',
     element: <Register />
   },
   {
-    path: 'auth/reset',
+    path: '/auth/reset',
     element: <Reset />
   },
   {
-    path: 'auth/verification',
+    path: '/auth/verification',
     element: <Verification />
   },
   {
-    path: 'auth/loading',
+    path: '/auth/loading',
     element: <AuthLoading />
   },
   {
-    path: 'settings',
+    path: '/settings',
     element: <Settings />
   },
   {
-    path: 'user/profile',
+    path: '/user/profile',
     element: <UserProfile />
   },
   {
-    path: 'user/stars',
+    path: '/user/stars',
     element: <Stars />
   },
   {
-    path: 'user/learning',
+    path: '/user/learning',
     element: <Learning />
   },
   {
-    path: 'user/history',
+    path: '/user/history',
     element: <History />
   },
   {
-    path: 'learn',
+    path: '/learn',
     element: <Learn />
   },
   {
-    path: 'learn/knowledge/:id',
+    path: '/learn/knowledge/:id',
     element: <Knowledge />
   },
   {
-    path: 'exam',
+    path: '/exam',
     element: <Exam />
   },
   {
-    path: 'exam/unfinish',
+    path: '/exam/unfinish',
     element: <ExamUnfinish />
   },
   {
-    path: 'exam/:id/frq',
+    path: '/exam/:id/frq',
     element: <ExamFrq />
   },
   {
-    path: 'exam/:id/mcq',
+    path: '/exam/:id/mcq',
     element: <ExamMcq />
   },
   {
-    path: 'practice/frq/table',
+    path: '/practice/frq/table',
     element: <FrqTable />
   },
   {
-    path: 'practice/frq/question/:id',
+    path: '/practice/frq/question/:id',
     element: <FrqQuestion />
   },
   {
-    path: 'practice/mcq/config',
+    path: '/practice/mcq/config',
     element: <McqConfig />
   },
   {
-    path: 'practice/mcq/questions',
+    path: '/practice/mcq/questions',
     element: <McqQuestion />
   }
 ])
